@@ -1,4 +1,4 @@
- let num=4;
+ let num=7;
 let count=0;
 for(let i=1;i<num;i++){
 
@@ -6,7 +6,8 @@ for(let i=1;i<num;i++){
 
     count++;
   }
-}if(count==4){
+}
+if(count<=2){
 
   console.log(num,"is prime");
 }else{
